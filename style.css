@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.area{
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+}
+.input_area{
+    width: 172px;
+    display: flex;
+    flex-direction: column;
+}
+.number1{
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #1e99a4;
+}
+.number2{
+    margin-top: 10px;
+    border: 1px solid #1e99a4;
+    outline: none;
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+}
+.btn_area{
+    margin-top: 10px;
+    display: flex;
+    column-gap: 5px;
+    width: 172px;
+}
+.btn_area button{
+    padding: 2px 7px;
+    cursor: pointer;
+}
+.result{
+    width: inherit;
+    height: inherit;
+    font-size: 18px;
+    margin-top: 20px;
+}
